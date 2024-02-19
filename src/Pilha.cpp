@@ -44,7 +44,7 @@ bool StackAdd(Data element, Cell *stack){
 }
 
 bool StackPop(Data &element, Cell *stack){
-    if(StackSize()){
+    if(StackSize(stack) != 0){
         Cell *temp = stack;
         stack = stack->nextCell;
         element = stack->item;
@@ -58,7 +58,7 @@ bool StackPop(Data &element, Cell *stack){
 }
 
 bool StackFirstItem(Data &element, Cell *stack){
-    if(StackSize() != 0){
+    if(StackSize(stack) != 0){
         element = stack->item;
         return true;
     } else {    
