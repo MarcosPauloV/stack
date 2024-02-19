@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Pilha.h"
+#include "stack.h"
 
 Cell *top;
 

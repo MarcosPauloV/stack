@@ -1,13 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "Pilha.h"
+#include "stack.h"
 
 using namespace std;
 
-int main()
-{
-        
+int main(){    
     return 0;
 }

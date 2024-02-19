@@ -1,5 +1,5 @@
-#ifndef PILHA_H_INCLUDED
-#define PILHA_H_INCLUDED
+#ifndef STACK_H_INCLUDED
+#define STACK_H_INCLUDED
 
 typedef int Data;
 
@@ -16,4 +16,4 @@ bool StackAdd(Cell element);
 bool StackPop(Cell &element);
 bool StackFirstItem(Cell &element);
 
-#endif // PILHA_H_INCLUDED
+#endif 
